@@ -1,0 +1,84 @@
+/* Estilos de pagina de viajes
+*{
+    outline: solid black;
+}
+*/
+body { /* Seleccion de body */
+font-family: Arial, Helvetica, sans-serif ; /*Cambio de tipografia */ 
+margin: 0; /* Elimina todo el margen predefinido */
+padding: 0; /*elimina todo el relleno de los elementos */
+}
+/* Aca viene el estilo de una clase container */
+.container {
+    width: 80%; /*establece el ancho del container en un: 80% */
+    margin: 0 auto; /*centra horizontalmente el elemento container */
+}
+/* estilo de encabezado*/
+header {
+    background-color: #333; /* establece el color del fondo */
+    color: #fff; /* da el color a las letras */
+    padding: 20px 0; /* añade relleno superior e inferior */
+}
+header h1{
+    margin: 0; /* elimina el margen por defecto del titulo */
+}
+/* estilo de elemento li */
+nav ul li{
+    display: inline; /* alinea los elementos */
+    margin-right: 20px; /* el margen da hacia la derecha */
+}
+/* estilo a elementos de vinculo ancla de navegacion */
+nav ul li a{
+    color: #fff;  /* color a elemento anchor */
+    text-decoration: none; /*quita subrayado de enlaces */
+}
+    section {
+        padding: 40px 0; /*añade relleno superior e inferior*/
+    }
+#banner{
+    background-image: url(https://imgmedia.wapa.pe/1200x660/wapa/migration/imagen/2019/08/12/noticia-1565626851-portada-viaje.png); /*establece la imagen de fondo del banner*/
+    background-size: cover; /*ajusta la imagen al area del banner*/
+    color: #fff; /*establece el color del texto*/
+    text-align: center; /*centra el texto del banner*/
+    padding: 100px 0; /*define relleno superior y inferior*/
+}
+#banner h2 {
+    font-size: 36px; /*establece tamaño de h2*/
+}
+#bannner p{
+    font-size: 18px; /*establece tamaño de p*/
+    margin-bottom: 20px; /*define el margen inferior*/
+}
+.btn{
+    background-color: #007bff; /*le da color al fondo del boton*/
+    color: #fff; /* color del texto del boton*/
+    padding: 10px 20px; /*relleno del boton*/
+    text-decoration: none; /*quita decoracion de enlace*/
+}
+/*estilo cuando pasa mouse sobre el boton*/
+.btn:hover{
+    background-color: #0056b3;
+}
+.destinos-container{
+    display:flex;
+}
+.destino{
+    width: calc(33.33% - 20px); /*establece el ancho de cada destino menos el espacio entre los destinos*/
+    margin-bottom: 20px; /*define el margen inferior*/
+   }
+   .destino img{
+    width: 100%; /*establece el ancho de la imagen ajustandola al contenedor*/
+    border-radius: 8px; /*redondea las esquinas*/
+   }
+   .destino h3{
+   margin-top: 10px; /*agrega distancia entre imagen y h3 y en caso del parrafo agrega distancia superior entre h3 y parrrafo*/
+   }
+   .destino p{
+   margin-top: 10px;
+   }
+footer{
+    background-color: #333; /*establece color de footer*/
+    color: #fff; /*establecer color de texto de footer*/
+    text-align: center; /*centra el texto*/
+    padding: 20px 0; /*añade relleno inferior e superior*/
+}
