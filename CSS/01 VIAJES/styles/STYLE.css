@@ -65,20 +65,56 @@ nav ul li a{
 .destino{
     width: calc(33.33% - 20px); /*establece el ancho de cada destino menos el espacio entre los destinos*/
     margin-bottom: 20px; /*define el margen inferior*/
-   }
-   .destino img{
+    }
+    .destino img{
     width: 100%; /*establece el ancho de la imagen ajustandola al contenedor*/
     border-radius: 8px; /*redondea las esquinas*/
-   }
-   .destino h3{
-   margin-top: 10px; /*agrega distancia entre imagen y h3 y en caso del parrafo agrega distancia superior entre h3 y parrrafo*/
-   }
-   .destino p{
-   margin-top: 10px;
-   }
+    }
+    .destino h3{
+    margin-top: 10px; /*agrega distancia entre imagen y h3 y en caso del parrafo agrega distancia superior entre h3 y parrrafo*/
+    }
+    .destino p{
+    margin-top: 10px;
+    }
 footer{
     background-color: #333; /*establece color de footer*/
     color: #fff; /*establecer color de texto de footer*/
     text-align: center; /*centra el texto*/
     padding: 20px 0; /*añade relleno inferior e superior*/
 }
+/*aqui va el estilo de contacto*/
+#contacto{
+    padding: 40px 0;
+}
+#contacto.container{
+    text-align: center;
+}
+#contacto.h2{
+    margin-bottom: 20px;
+}
+#contacto form{
+    max-width: 500px; /*establece el ancho maximo del elemento*/
+    margin: 0 auto; /*centra horizontalmente dentro del contenedor*/
+    padding: 20px;
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /*establece una sombra alrededor en los elementos*/
+}
+#contacto label{
+    display: block; /*etiquetas en bloques*/
+    margin-bottom: 10px;
+    font-weight: bold; /*establece fuente en negrita*/
+}
+#contacto input, #contacto textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box; /*organiza mejor los elementos dentro del elemento que lo contiene*/
+}
+
+#contacto textarea{
+    resize: vertical; /*permite redimensionar el area del texto pero verticalmente*/
+}
+
