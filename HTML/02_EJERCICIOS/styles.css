@@ -1,0 +1,27 @@
+.row {
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 650px;
+    margin: 10px auto;
+    
+}
+
+#verde {
+    background-color: teal;
+    
+}
+
+#morado {
+    background-color: blueviolet;
+    
+}
+
+#amarillo {
+    background-color: yellowgreen;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
