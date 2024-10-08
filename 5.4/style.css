@@ -69,15 +69,16 @@ body {
     font-size: 0.9rem;
     margin-bottom: 20px;
     line-height: 1.4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .edit-profile {
-    text-decoration: none;
+    text-decoration: line;
     color: #007bff;
     font-size: 0.9rem;
     display: flex;
     align-items: center;
-    margin-top: 10px;  
+    margin-top: 15px;  
 }
 
 .edit-profile .icon {
