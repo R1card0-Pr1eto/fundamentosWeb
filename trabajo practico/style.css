@@ -1,5 +1,6 @@
-body {
+* {
     margin: 0;
+    padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -44,7 +45,7 @@ body {
     background-color: #00bcd4;
     color: white;
     border: none;
-    padding: 8px 16px;
+    padding: 10px 16px;
     font-size: 16px;
     cursor: pointer;
     border: 2px solid;
@@ -59,83 +60,186 @@ body {
 
 /* */
 .profile-card {
-    width: 600px;  
-    background-color: white;
-    border: 0,5px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 2%;
-    margin-left: 20%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    margin-right: 20px;
+    width: 150%;
+    height: 60%;
 }
 
-.profile-header {
-    height: 70px;  
-    background-color: #4373a7;
+.profile-card .profile-avatar{
+    background-color: #00bcd4;
+    height: 130px;
     position: relative;
 }
 
-.profile-avatar {
-    position: relative;
-    top: -30px;  
-    left: 20px;  
-    width: 80px; 
-    height: 80px;
+.profile-card .profile-avatar img {
     border-radius: 50%;
-    border: 2px solid white;
-    background-color: #f4f4f4;
-    text-align: center;
+    border: 5px solid #fff;
+    position: absolute;
+    bottom: -60px;
+    left: 20px;
 }
 
-.profile-avatar img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+.profile-card .profile-info {
+    margin-top: 80px;
 }
 
-.profile-info {
-    padding-left: 20px;  
+.profile-card .profile-info h2 {
+    margin: 0;
+}
+.profile-card .profile-info p {
+    margin: 5px 0;
 }
 
-.profile-info h2 {
-    font-size: 1.4rem;
-    margin-top: -10px; 
-    margin-bottom: 8px; 
+.profile-card .profile-info .edit-profile {
+    color: #00aaff;
+    text-decoration: none;
 }
 
-.profile-info .location {
-    color: #666;
-    font-size: 0.9rem;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; 
-}
-
-.profile-info .location .icon {
+.locationn {
     width: 16px;
-    height: 16px;
     margin-right: 5px;
 }
 
-.profile-info .description {
-    font-size: 0.9rem;
-    margin-bottom: 20px;
-    line-height: 1.4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.edit-profile {
-    text-decoration: line;
-    color: #007bff;
-    font-size: 0.9rem;
-    display: flex;
-    align-items: center;
-    margin-top: 15px;  
-}
-
-.edit-profile .icon {
+.config {
     width: 16px;
-    height: 19px;
     margin-right: 5px;
 }
+.solicitudes {
+    width: 29%;
+}
 
+.request {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    padding: 1vh;
+}
+
+.solicitudes .card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+.solicitudes .card .connection h3 {
+    margin: 0 0 10px 0;
+}
+
+.solicitudes .card .connection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.solicitudes .card .connection img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.solicitudes .card .connection .acciones {
+    margin-left: auto;
+}
+
+.solicitudes .card .connection .actions i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.last-info h3 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.card-2 {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    margin-top: 6vh;
+}
+
+.connection {
+    margin: 2vh;
+}
+
+.viewmore {
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.cinco {
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+.conexion {
+    margin: 10px;
+}
+
+.todd {
+    display: flex;
+    justify-content: space-around;
+}
+
+.todd img{
+    margin: 10px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.todd h1 {
+    font-size: 24px;
+    margin-block: 20px;
+}
+
+.container {
+    justify-content: content;
+}
+
+.your-connections {
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+.conexiones {
+    margin: 5px;
+}
+
+.todds {
+    margin-right: 30vh;
+}
+
+.viewmore {
+    padding: 1vh;
+    margin-top: 1px;
+}
+
+.last-info {
+    background-color: #fff;
+    padding: 3vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+    width: 150%;
+    height: 20%;
+}
+
+.parte-final {
+    justify-content: column;
+}
+
+.solicitudes {
+    margin-left: 40vh;
+}
+
+.info {
+    margin-block: 10px;
+}
