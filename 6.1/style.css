@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-links {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-icons input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 280px;
+    background-color: #F1F1F1;
+}
+
+.icon-button {
+    background-color: white;
+    color: #888A8C;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.icon-button1 {
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.navbar-right {
+    background-color: #262329;
+    height: 50px;
+    right: 100px;
+}
+
+.Navbar-perfil img {
+    height: 4vh;
+    width: 3vh;
+}
+
+.location button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #262329;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 13vh;
+    right: 165vh;
+    font-weight: bold;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+
